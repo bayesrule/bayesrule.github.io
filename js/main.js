@@ -12,7 +12,7 @@
       this.height = this.width = 300;
       //this.width = this.height = Math.min(window.innerWidth * 0.3, window.innerHeight * 0.3);
       this.radius = 0.5 * Math.min(this.width, this.height);
-      this.quality = 70;
+      this.quality = 72;
       this.layers = [];
       this.layerSize = this.radius * 0.5;
       this.layerOverlap = Math.round(this.quality * 0.5);
