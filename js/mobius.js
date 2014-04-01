@@ -9,8 +9,8 @@
 	var canvas = document.getElementById( 'myCanvas' ),
 		context = canvas.getContext( '2d' ),
 
-		width = window.innerWidth * 0.5,
-		height = window.innerHeight * 0.5,
+		width = window.innerWidth * 0.7,
+		height = window.innerHeight * 0.7,
 
 		radius = Math.min( width, height ) * 0.5,
 
@@ -54,7 +54,7 @@
 	function step () {
 		for( var i = 0, len = layers.length; i < len; i++ ) {
 			// the rolling speed
-			layers[i].r += 0.001;
+			layers[i].r += 0.002;
 		}
 	}
 
