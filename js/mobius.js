@@ -54,7 +54,7 @@
 	function step () {
 		for( var i = 0, len = layers.length; i < len; i++ ) {
 			// the rolling speed
-			layers[i].r += 0.0025;
+			layers[i].r += 0.003;
 		}
 	}
 
