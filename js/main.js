@@ -9,9 +9,8 @@
       this.update = __bind(this.update, this);
       this.canvas = this.$canvas[0];
       this.context = this.canvas.getContext('2d');
-      //this.height = this.width = 200;
-      this.width = this.height = Math.min(window.innerWidth * 0.3, window.innerHeight * 0.3);
-      //this.height = Math.min(window.innerWidth * 0.35, window.innerHeight * 0.35);
+      this.height = this.width = 250;
+      //this.width = this.height = Math.min(window.innerWidth * 0.3, window.innerHeight * 0.3);
       this.radius = 0.5 * Math.min(this.width, this.height);
       this.quality = 75;
       this.layers = [];
