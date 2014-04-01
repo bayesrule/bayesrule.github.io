@@ -9,8 +9,8 @@
 	var canvas = document.getElementById( 'myCanvas' ),
 		context = canvas.getContext( '2d' ),
 
-		width = window.innerWidth * 0.3,
-		height = window.innerHeight * 0.3,
+		width = window.innerWidth * 0.5,
+		height = window.innerHeight * 0.5,
 
 		radius = Math.min( width, height ) * 0.5,
 
@@ -21,7 +21,7 @@
 		layers = [],
 
 		// Width/height of layers
-		layerSize = radius * 0.35,
+		layerSize = radius * 0.4,
 
 		// Layers that overlap to create the infinity illusion
 		layerOverlap = Math.round( quality * 0.5 );
