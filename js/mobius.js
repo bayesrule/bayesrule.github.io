@@ -9,8 +9,8 @@
 	var canvas = document.getElementById( 'myCanvas' ),
 		context = canvas.getContext( '2d' ),
 
-		width = window.innerWidth * 0.6,
-		height = window.innerHeight * 0.6,
+		width = window.innerWidth * 0.5,
+		height = window.innerHeight * 0.5,
 
 		radius = Math.min( width, height ) * 0.5,
 
