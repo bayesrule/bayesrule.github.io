@@ -9,12 +9,12 @@
       this.update = __bind(this.update, this);
       this.canvas = this.$canvas[0];
       this.context = this.canvas.getContext('2d');
-      this.height = this.width = 250;
+      this.height = this.width = 300;
       //this.width = this.height = Math.min(window.innerWidth * 0.3, window.innerHeight * 0.3);
       this.radius = 0.5 * Math.min(this.width, this.height);
-      this.quality = 75;
+      this.quality = 70;
       this.layers = [];
-      this.layerSize = this.radius * 0.45;
+      this.layerSize = this.radius * 0.5;
       this.layerOverlap = Math.round(this.quality * 0.5);
       this.animate = false;
     }
