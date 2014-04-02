@@ -9,7 +9,7 @@
       this.update = __bind(this.update, this);
       this.canvas = this.$canvas[0];
       this.context = this.canvas.getContext('2d');
-      this.height = this.width = 230;
+      this.height = this.width = 220;
       //this.width = this.height = Math.min(window.innerWidth * 0.3, window.innerHeight * 0.3);
       this.radius = 0.5 * Math.min(this.width, this.height);
       this.quality = 75;
@@ -52,7 +52,7 @@
 
       _results = [];
       for (i = _i = 0, _ref = this.layers.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
-        _results.push(this.layers[i].r += 0.006);
+        _results.push(this.layers[i].r += 0.005);
       }
       return _results;
     };
