@@ -263,7 +263,7 @@ body {
 	font-family: "Poly", Georgia, "Times New Roman", Times, serif;
 	line-height: 1.468;
 	background-color: #fff;
-	background-image: url("../img/light_wool_edited.png")
+	background-image: url("../img/light_wool.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dppx), only screen and (min-resolution: 2dppx) {
