@@ -1,0 +1,47 @@
+<!--
+TwirlingVR Inc. 2015
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>TwirlingVR Web Player</title>
+		<meta charset="utf-8">
+
+		<!-- Valiant360 control styles -->
+		<link rel="stylesheet" type="text/css" href="css/valiant360.css" />
+
+	</head>
+	<body>
+
+		<div class="valiantContainer" data-video-src="video/vs-out_2_1024.mp4" style="width:100%; height: 500px;"></div>
+
+		<!-- <div class="valiantPhoto" data-photo-src="equirectangular-bathroom-tile.jpg" style="width: 480px; height: 380px;"></div> -->
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/three.min.js"></script>
+
+		<!-- Valiant360 plugin, load after jQuery and Three.js -->
+		<script type="text/javascript" src="valiant.jquery.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.valiantContainer').Valiant360({
+			        crossOrigin: 'anonymous',   // valid keywords: 'anonymous' or 'use-credentials'
+			        clickAndDrag: false,    // use click-and-drag camera controls
+			        flatProjection: false,  // map image to appear flat (often more distorted)
+			        fov: 35,                // initial field of view
+			        fovMin: 3,              // min field of view allowed
+			        fovMax: 100,                // max field of view allowed
+			        hideControls: false,    // hide player controls
+			        lon: 0,                 // initial lon for camera angle
+			        lat: 0,                 // initial lat for camera angle
+			        loop: "loop",           // video loops by default
+			        muted: false,            // video muted by default
+			        autoplay: true          // video autoplays by default
+			    });
+			});
+		</script>
+
+	</body>
+</html>
