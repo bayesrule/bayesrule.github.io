@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Modeified by Hao Liu (haoliu.cc)
+	originally by
+	@n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>拓灵VR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!-- Valiant360 control styles -->
+		<link rel="stylesheet" type="text/css" href="assets/css/valiant360.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><img src="images/logo.png" height="45"></a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">主页</a></li>
+							<!-- <li>
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li> -->
+							<li><a href="vr.html">拓灵VR</a></li>
+							<li><a href="#">商店(即将开放)</a></li>
+							<li><a href="index.html#team">我们</a></li>
+							<li><a href="index.html#contact">联系</a></li>
+							<li><a href="#" class="button special">登录</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>拓灵VR</h2>
+							<p>最新最酷的沉浸式影音互动娱乐体验</p>
+							<h3><span class="image"><img src="images/badge_apple.svg" height="60"></span>
+								<span class="image"><img src="images/badge_google.png" height="60"></span></h3>
+						</header>
+
+						<!-- Content -->
+						<section id="content">
+							<h2>演示视频</h2>
+							<!-- <a class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+							<footer class="minor">
+								<ul class="actions">
+								<li><a class="button icon fa-play">播放</a></li>
+								<li><a class="button icon fa-pause">暂停</a></li>
+								<li><a class="button icon fa-share">分享</a></li>
+								</ul>
+							</footer> -->
+							<div class="Valiant360" data-video-src="videos/video_1024_as2_rollingW_stream.mp4"></div>
+							<script src="assets/js/jquery-1.7.2.min.js"></script>
+							<script src="assets/js/three.min.js"></script>
+
+							<!-- Valiant360 plugin, load after jQuery and Three.js -->
+							<script src="assets/js/jquery.valiant360.min.js"></script>
+							<script type="text/javascript">
+									$('.Valiant360').Valiant360({
+										loop: "loop",           // video loops by default
+			        					muted: false,            // video muted by default
+			        					autoplay: false          // video autoplays by default
+									});
+
+							</script>
+
+							<br>
+							<br>
+
+							<div class="box alt">
+								<div class="row uniform">
+									<section class="4u 6u(medium) 12u$(xsmall)">
+										<!-- <span class="icon alt major fa-area-chart"></span> -->
+										<span class="image fit"><img src="images/pic08.jpg" height="240"></span>
+										<footer class="minor">
+										<ul class="actions">
+											<li><a class="button small icon fa-play">播放</a></li>
+											<li><a class="button small icon fa-share">分享</a></li>
+											</ul>
+										</footer>
+									</section>
+
+									<section class="4u 6u(medium) 12u$(xsmall)">
+										<!-- <span class="icon alt major fa-area-chart"></span> -->
+										<span class="image fit"><img src="images/pic08.jpg" height="240"></span>
+										<footer class="minor">
+										<ul class="actions">
+											<li><a class="button small icon fa-play">播放</a></li>
+											<li><a class="button small icon fa-share">分享</a></li>
+											</ul>
+										</footer>
+									</section>
+
+									<section class="4u 6u(medium) 12u$(xsmall)">
+										<!-- <span class="icon alt major fa-area-chart"></span> -->
+										<span class="image fit"><img src="images/pic08.jpg" height="240"></span>
+										<footer class="minor">
+										<ul class="actions">
+											<li><a class="button small icon fa-play">播放</a></li>
+											<li><a class="button small icon fa-share">分享</a></li>
+											</ul>
+										</footer>
+									</section>
+								</div>
+							</div>
+						</section>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<li><a class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Copyright &copy; 2015 Beijing Tuoling Inc.  All rights reserved.</li><li>北京时代拓灵科技有限公司 保留所有权利</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
